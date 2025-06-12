@@ -142,6 +142,7 @@ label .hide{
   font-weight: 500;
   position: relative;
   margin-bottom: 8px;
+
 }
 
 .row-2 .food-item-1{
@@ -196,7 +197,7 @@ label .hide{
 }
 
 .menubar{
-  
+  cursor: pointer;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.2);
@@ -325,6 +326,7 @@ form select {
   width: 70%;
   text-align: center;
   margin: auto;
+  cursor: pointer;
 }
 
 /* Section 5 Started */
@@ -453,6 +455,17 @@ form select {
   font-size: 14px;
 }
 
+.single-blog .thumb:hover img{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.single-blog a h4:hover{
+  transition: all 0.5s ease;
+  color: #f42f2c;
+}
+
 .meta-bottom {
   display: flex;
   justify-content: space-between;
@@ -468,6 +481,10 @@ form select {
   display: flex;
    width: 50%;
 }
+
+
+
+
 
 /* Footer Started */
 
